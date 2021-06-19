@@ -1,11 +1,11 @@
 package src.questao1;
 
-class Boletim extends Aluno{
+class boletim extends aluno{
   private double nota_um;
   private double nota_dois;
   private double media;
 
-  public Boletim(String nome, String matricula, String curso, double nota_um, double nota_dois){
+  public boletim(String nome, String matricula, String curso, double nota_um, double nota_dois){
     super(nome, matricula, curso);
     this.nota_um = nota_um;
     this.nota_dois = nota_dois;
